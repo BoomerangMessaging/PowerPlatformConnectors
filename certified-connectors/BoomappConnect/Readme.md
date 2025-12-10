@@ -13,4 +13,4 @@ You will need the following to proceed:
 
 
 ## Support and documentation: 
-You can find the documentation [here:](https://boomerangmessaging.halocrm.io/kb?id=47)
+You can find the documentation [Here](https://boomerangmessaging.halocrm.io/portal)
