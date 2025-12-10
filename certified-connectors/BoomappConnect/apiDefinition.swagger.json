@@ -1460,10 +1460,10 @@
           "description": "Returns all responses associated to a conversation thread based on the value passed in conversation_id parameter when sending a two-way message. Pass the corresponding value to retrieve responses associated to that thread."
           }
         ],
-        "description": "This method allows a response or responses (where open ticket is applied) to an outbound transaction to be retrieved based on criteria associated to the outbound messages."
+        "description": "This method allows a response or responses (where open ticket is applied) to an outbound transaction sent using the SMS two-way, Voice or Email functions, to be retrieved based on criteria associated to the outbound messages."
       }
     },
-    "/v1/MaskTwoWay": {
+    "/v1/maskTwoWay": {
       "post": {
         "responses": {
           "default": {
@@ -1588,7 +1588,7 @@
             }
           }
         },
-        "summary": "Get_InboundTrigger",
+        "summary": "Get_Inbound Trigger",
         "description": "Retrieve messages submitted to an inbound campaign number.  Inbound campaign numbers allow end users to initiate engagement with your organisation via SMS and the inbound message can then be used as a trigger to initiate a resulting workflow. End users could for example, request an appointment which could trigger a flow that sends a follow up SMS containing the next available slots. Additionally, using a campaign number as the originating number when calling the SMS3 (custom number) function, allows you to initiate a broadcast to your stakeholders and with any replies being automatically returned to the inbound campaign number. Inbound campaign numbers can be purchased via your Boomerang UI account or on request by sending an email to operations@boomcomms.com.",
         "operationId": "Get_InboundTrigger",
         "x-ms-trigger": "batch",
